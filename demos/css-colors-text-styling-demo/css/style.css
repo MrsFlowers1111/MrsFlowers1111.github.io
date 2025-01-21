@@ -1,0 +1,37 @@
+body {
+    background-color: #ffebcd;
+}
+#p1 {
+    color: #8b0000;
+}
+#p2 {
+    color: #328a5c;
+    font-weight:bolder;
+    font-size:20px;
+    font-style: italic;
+    background-color: #f0f5f5;
+}
+#p3 {
+    color: #bf400a;
+    font-family: cursive;
+    font-style: italic;
+    text-decoration: underline;
+}
+#pretty {
+    padding: 50vh 10%
+}
+#s1 {
+    font-weight: bold;
+    color:chocolate;
+    font-size: 25px;
+}
+#s2 {
+    font-style:italic;
+    Letter-spacing: 2px;
+}
+#s3 {
+    background-color: #556b2f;
+}
+#s4 {
+    text-align:
+}
