@@ -1,0 +1,103 @@
+#p1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+#p1-c1 {
+    background: #00a3ff ;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px
+}
+#p1-c2 {
+    background: #6a3d00 ;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px
+}
+#p1-c3 {
+    background: #897456 ;
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 24px
+}
+#p2 {
+    font-family:fantasy;
+    text-align: center;
+}
+#p2-c1 {
+    background: #f370a2 ;
+    color: #fff;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px
+}
+#p2-c2 {
+    background: #ff9979 ;
+    color: #fff;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px;
+}
+#p2-c3 {
+    background: #ffb868 ;
+    color: #fff;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px
+}
+#p2-c4 {
+    background: #ffd863 ;
+    color: #fff;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px
+}
+#p2-c5 {
+    background: #f9f871 ;
+    color: #fff;
+    font-family: fantasy;
+    text-align: center;
+    padding: 24px
+}
+#p3 {
+    font-family:sans-serif;
+    text-align: center;
+}
+#p3-c1 {
+    background: #4c3800;
+    color: #000;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px
+}
+#p3-c2 {
+    background: #c6a65e ;
+    color: #000;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px;
+}
+#p3-c3 {
+    background: #a98c45 ;
+    color: #000;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px
+}
+#p3-c4 {
+    background: #f7d58a ;
+    color: #000;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px
+}
+#p3-c5 {
+    background: #fffaad ;
+    color: #000;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 24px
+}
