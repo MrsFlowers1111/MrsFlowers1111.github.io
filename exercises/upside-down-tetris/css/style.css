@@ -9,7 +9,7 @@
 .tetris-block {
     padding: 20px;
     border: 12px outset;
-    display:inline-block;
+    display: inline-block;
 }
 
 .pink {

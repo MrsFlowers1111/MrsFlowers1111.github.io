@@ -1,0 +1,8 @@
+#navbar {
+    text-align: center;
+    background-color: blueviolet;
+    padding: 24px;
+}
+div#navbar a {
+    color: whitesmoke;
+}
