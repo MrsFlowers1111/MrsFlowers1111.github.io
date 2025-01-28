@@ -1,0 +1,59 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the assignment.
+
+    Good luck, and have fun!
+*/
+img {
+    width: 100%;
+    object-fit: cover;
+}
+.frame-1 {
+    border: 15px groove grey;
+    margin: 40px 40px 20px 0px;
+    box-shadow: -2px 2px 2px #383535;
+}
+.frame-1 img {
+    width: 80px;
+    display: block;
+}
+.frame-1 div {
+    background-color: #241d41;
+    padding: 4px;
+    box-shadow: inset -2px 2px 2px rgb(67, 66, 69)
+}
+
+
+.frame-2 {
+    border: 15px groove rgb(0, 0, 0);
+    margin: 100px 40px;
+    box-shadow: -2px 2px 2px #3b38389b;
+}
+.frame-2 h2 {
+    font: small italic;
+    color: hwb(0 98% 2% / 0.911) ;
+    font-display:'Times New Roman', Times, serif;
+    display: block;
+}
+.frame-2 div {
+    background-color: #00000071;
+    padding: 3px;
+    box-shadow: inset -2px 2px 2px rgb(69, 66, 66)
+}
+
+.frame-3 {
+    border: 15px ridge rgba(197, 61, 19, 0.904);
+    margin: 170px 0px 40px 40px;
+    box-shadow: -2px 2px 2px #383535;
+}
+.frame-3 img {
+    width: 80px;
+    display: block;
+}
+.frame-3 div {
+    background-color: #d18718;
+    padding: 4px;
+    box-shadow: inset -2px 2px 2px rgb(109, 87, 38)
+}
