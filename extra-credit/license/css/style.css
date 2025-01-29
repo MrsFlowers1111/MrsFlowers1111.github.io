@@ -1,0 +1,29 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#content {
+    width: 90%;
+    margin-left: 0px auto;
+    max-width: 1440px;
+}
+
+#left-side h1 {
+    color: rgb(51, 51, 168);
+}
+h4 {
+    background-color: rgb(51, 51, 168);
+    color:white;
+    text-align: center;
+}
+#id-and-expiration div {
+    color: blue;
+    display: inline-block;
+}
+#id-and-expiration div span {
+    color: red;
+}
