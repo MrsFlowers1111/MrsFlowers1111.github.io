@@ -6,19 +6,16 @@
 
     Good luck, and have fun!
 */
-#content {
-    width: 90%;
-    margin-left: 0px auto;
-    max-width: 1440px;
-}
-
-#left-side h1 {
+h1 {
     color: rgb(51, 51, 168);
+    Margin: 5px 0px
 }
 h4 {
-    background-color: rgb(51, 51, 168);
+    background: rgb(51, 51, 168) 75px;
     color:white;
     text-align: center;
+    margin: 5px 0px;
+    width: 75%;
 }
 #id-and-expiration div {
     color: blue;
@@ -26,4 +23,13 @@ h4 {
 }
 #id-and-expiration div span {
     color: red;
+}
+#address {
+    display: inline-block;
+    width: 75%;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+#id-and-expiration {
+    width: 100%;
 }
