@@ -58,7 +58,7 @@ ul li {
     border: 2px solid blueviolet;
     border-radius: 25px 25px 25px 25px;
     padding: 15px 0px;
-    margin: 0px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
     text-align: center;
     background-color: rgba(137, 43, 226, 0.466);
 }
@@ -113,4 +113,7 @@ body h1 {
 }
 .g1 {
     color: green;
+}
+#last {
+    margin-bottom: 48px;
 }
