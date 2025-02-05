@@ -24,7 +24,8 @@
 #section-2 img {
     border-radius: 25%;
     width: 100px;
-    padding: 1px 0px;
+    padding: 3px 0px;
+    margin: 0px 24px
 }
 #section-2 img:hover {
     transform: scale(2);
