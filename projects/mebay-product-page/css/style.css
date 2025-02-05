@@ -3,6 +3,7 @@
     grid-template-columns: 1fr .5fr 2fr 2fr 1fr;
     grid-template-areas: ". left middle right .";
     margin: 100px 20px;
+    font-family: New Amsterdam;
 }
 #section-1 {
     grid-area: middle;
