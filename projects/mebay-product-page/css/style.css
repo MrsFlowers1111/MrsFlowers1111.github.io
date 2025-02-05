@@ -27,7 +27,7 @@
 #section-3 h1 {
     font-size: larger;
     text-align: start;
-    margin: 24px 0px 0px 48px;
+    margin: 24px 0px 0px 24px;
 }
 #section-3 img {
     border-radius: 100%;
@@ -42,7 +42,7 @@
     color: black;
     padding: 0px;
     text-align: start;
-    margin: 24px 0px 0px 48px;
+    margin: 24px 0px 0px 24px;
 }
 ul li {
     list-style-type: none;
@@ -71,19 +71,19 @@ ul a {
 }
 div p {
     text-align: start;
-    margin: 24px 0px 0px 48px;
+    margin: 24px 0px 0px 24px;
 }
 div sub {
     text-align: start;
-    margin: 24px 0px 0px 48px;
+    margin: 24px 0px 0px 24px;
 }
 div h2 {
     text-align: start;
-    margin: 24px 0px 0px 48px;
+    margin: 24px 0px 0px 24px;
 }
 body h1 {
     text-align: center;
-    margin: 10px 0px 0px 0px;
+    margin: 0px;
 }
 .p1 {
     color: purple;
