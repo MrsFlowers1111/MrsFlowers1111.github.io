@@ -5,22 +5,29 @@ body {
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
-    font-size:xx-large;
+    font-size: large;
 }
 .main {
     background-color: rgba(128, 128, 128, 0.562);
 }
 .watch-1 {
-    background-color: black;
     color: white;
-    margin: 0px auto;
-    padding: 10px;
-    border-radius: 20px;
+    margin: 10px 0px 48px 0px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: black;
 }
-body p {
-    margin: 40px;
+p {
+    padding: 24px;
+    margin: 0px;
     font-size: x-large;
 }
-img {
-    margin: 5px;
+h1 {
+    margin: 48px 0px 0px 0px;
+    padding: 30px;
+    font-size: xx-large;
+}
+h3 {
+    margin: 24px;
+    padding: 24px 24px
 }
