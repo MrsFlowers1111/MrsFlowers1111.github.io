@@ -1,0 +1,102 @@
+#main-page {
+    display: grid;
+    grid-template-columns: 1fr .5fr 2fr 2fr 1fr;
+    grid-template-areas: ". left middle right .";
+    margin: 100px 20px;
+}
+#section-1 {
+    grid-area: middle;
+}
+#section-1 img {
+    width: 400px;
+    padding: 0px 15px;
+    border-radius: 10%;
+    align-content: center bottom;
+}
+#section-2 {
+    grid-area: left;
+}
+#section-2 img {
+    border-radius: 25%;
+    width: 75px;
+    padding: 1px 0px;
+}
+#section-3 {
+    grid-area: right;
+}
+#section-3 h1 {
+    font-size: larger;
+    text-align: start;
+    margin: 24px 0px 0px 48px;
+}
+#section-3 img {
+    border-radius: 100%;
+    width: 30px;
+    margin: 5px 0px 0px 5px;
+}
+#section-3 b {
+    text-align: start;
+    margin: 24px 0px 0px 10px;
+}
+#navbar a {
+    color: black;
+    padding: 0px;
+    text-align: start;
+    margin: 24px 0px 0px 48px;
+}
+ul li {
+    list-style-type: none;
+    border: 2px solid blueviolet;
+    border-radius: 25px 25px 25px 25px;
+    padding: 15px 0px;
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    background-color: rgba(137, 43, 226, 0.466);
+}
+ul a {
+    text-decoration: none;
+    color: black;
+}
+.c1 {
+    border: 1px solid black;
+    border-radius: 25%;
+    padding: 10px 24px 10px 5px;
+    text-align: right;
+}
+.c2 {
+    color: rgb(16, 171, 16);
+}
+.c3 {
+    color: red;
+}
+div p {
+    text-align: start;
+    margin: 24px 0px 0px 48px;
+}
+div sub {
+    text-align: start;
+    margin: 24px 0px 0px 48px;
+}
+div h2 {
+    text-align: start;
+    margin: 24px 0px 0px 48px;
+}
+body h1 {
+    text-align: center;
+    margin: 10px 0px 0px 0px;
+}
+.p1 {
+    color: purple;
+}
+.r1 {
+    color: red;
+}
+.b1 {
+    color: blue;
+}
+.y1 {
+    color: yellow;
+}
+.g1 {
+    color: green;
+}
