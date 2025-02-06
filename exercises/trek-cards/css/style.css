@@ -20,21 +20,22 @@ body {
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 24px;
-    justify-content: baseline;
+    justify-content: stretch;
+    transition: transform 0.5s, box-shadow 0.5s;
 }
 .card-style-1 {
     width: 350px;
     border: 1px solid white;
     background-color: white;
-    padding: 0px;
-    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.634);
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.634); 
 }
 .card-style-1 img {
-    width: 348px;
+    width: 350px;
     height: 250px;
     object-fit: cover;
     display: inline-flex;
-    align-items: center;
+    align-items: stretch;
+    background-position: center center;
 }
 .card-style-1 h2 {
     text-align: center;
@@ -49,10 +50,18 @@ body {
     font-size: large;
     text-align: center;
     color: white;
+    padding: 24px;
+    margin-bottom: 0px;
     border: 1px green solid;
     background-color: green;
     display: block;
-    padding: 24px;
-    margin: 0px;
+    transition: background-color 0.5s, color 0.5s;
 }
-
+.card-style-1 a:hover {
+    background-color: transparent;
+    color: green;
+}
+.card-container :hover {
+    transform: translateY(-4px);
+    box-shadow: 8px 8px 16px #00000088;
+}
