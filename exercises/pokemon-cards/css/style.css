@@ -63,10 +63,10 @@ img {
 }
 .description {
     padding: 24px 15px 10px;
-    text-align: left
+    text-align: left;
 }
 .power {
-    display:flex;
+    display: flex;
     padding: 36px 0px 0px;
     font-size: medium;
     align-content: center;
@@ -88,7 +88,7 @@ img {
 }
 #pokemon-card-3 .bold {
     margin: 70px 0px 0px 0px;
-    padding: 0px 24px 0px 0px;
+    padding: 48px 24px 0px 0px;
 }
 #pokemon-card-4 .data {
     margin: 5px 10px;
@@ -106,6 +106,4 @@ hr {
 .bold {
     font-weight: bolder;
 }
-#pokemon-card-3 .energy {
 
-}
