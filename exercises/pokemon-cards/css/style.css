@@ -1,0 +1,111 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-style-3 {
+    max-width: 275px;
+    margin: 0px auto;
+    display: flexbox;
+    justify-content: space-between;
+    border: 10px solid #e3ca3b;
+    border-radius: 5%;
+    flex-wrap: wrap;
+    background: radial-gradient(at top left, #ffff00, #ddba0d);
+}
+img {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    margin-left: 26px;
+    border: 4px solid orange;
+    background: radial-gradient(at top left, #ffff00, #ddba0d);
+}
+.pokemon-header {
+    display: flex;
+    justify-content: space-between; 
+}
+.name {
+    margin: 36px 0px 0px 20px;
+}
+.health {
+    margin:  40px 0px 5px;
+}
+.details {
+    text-align: center;
+    width: 200px;
+    display: inline-block;
+    margin-left: 24px;
+    font-size: xx-small;
+    background: radial-gradient(at top left, #ffa600, rgb(241, 238, 25));
+    font-weight: bold;
+}
+.attack {
+    display: flex;
+    justify-content: space-between;
+    font-size: x-small;
+}
+.energy {
+    padding: 15px;
+    margin-top: 24px;
+    display: flex;
+}
+.description {
+    padding: 24px 15px 10px;
+    text-align: left
+}
+.power {
+    display:flex;
+    padding: 36px 0px 0px;
+    font-size: medium;
+    align-content: center;
+}
+.data {
+    border: 4px solid orange;
+    font-size: xx-small;
+    font-weight: bold;
+}
+#pokemon-card-1 .data {
+    margin: 70px 10px 0px;
+
+}
+#pokemon-card-2 .data {
+    margin: 80px 10px 0px;
+}
+#pokemon-card-3 .data {
+    margin: 5px 10px;
+}
+#pokemon-card-3 .bold {
+    margin: 70px 0px 0px 0px;
+    padding: 0px 24px 0px 0px;
+}
+#pokemon-card-4 .data {
+    margin: 5px 10px;
+}
+hr {
+    padding: 1px;
+    margin: 0px 15px;
+    background-color: black;
+}
+#pokemon-card-3 .description {
+    margin: 0px 0px 5px 15px;
+    display: inline-flexbox;
+    justify-content: center;
+}
+.bold {
+    font-weight: bolder;
+}
+#pokemon-card-3 .energy {
+
+}
