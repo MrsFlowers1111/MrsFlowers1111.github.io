@@ -14,6 +14,9 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+.profile-pic-container{
+    align-content: center;
+}
 .card-style-2 {
     width: 350px;
     height: 550px ;
@@ -21,40 +24,33 @@ body {
     border: 1px solid white;
     border-radius: 25px;
     background-color: white;
-    justify-content: center;
-    flex-wrap: wrap;
     text-align: center;
 }
 .animagram-header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .logo { 
     text-align: left;
-    font-size: large;
-    padding: 5px;
     margin: 24px;
 }
 .brand-name {
-    text-align: right;
-    font-size: xx-large;
-    padding: 5px;
+    font-size: 28px;
     margin: 24px;
 }
 .profile-pic-container img {
     width: 200px;
-    align-content: center;
     border-radius: 100%;
 }
 .card-style-2 p {
     padding: 5px;
-    margin: 0px 30px 58px;
-    
+    margin: 0px 36px 58px;
 }
 .animagram-footer {
     display: flex;
     text-align: center;
     justify-content: space-between;
     font-size: x-large;
-    padding: 0px 24px 0px 24px;
+    padding: 10px 24px 0px 24px;
 }
