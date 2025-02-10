@@ -7,103 +7,76 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
-* {
-    box-sizing: border-box;
-}
-body {
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 .card-style-3 {
-    max-width: 275px;
-    margin: 0px auto;
-    display: flexbox;
-    justify-content: space-between;
-    border: 10px solid #e3ca3b;
-    border-radius: 5%;
-    flex-wrap: wrap;
-    background: radial-gradient(at top left, #ffff00, #ddba0d);
+    width: 350px;
+    border: solid #e3ca3b 16px;
+    border-radius: 12px;
+    padding: 16px;
+    flex-direction: column;
+    display: flex;
+    margin: 16px;
 }
 img {
-    display: flex;
-    width: 200px;
+    width: 100%;
+    margin-top: 0px;
     justify-content: center;
-    margin-left: 26px;
-    border: 4px solid orange;
+    border: 4px solid goldenrod;
     background: radial-gradient(at top left, #ffff00, #ddba0d);
 }
 .pokemon-header {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
+    align-items: center;
 }
-.name {
-    margin: 36px 0px 0px 20px;
+.h2 {
+    margin: 0px;
 }
 .health {
-    margin:  40px 0px 5px;
+    font-size: 18px
 }
 .details {
+    background-color: goldenrod;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
     text-align: center;
-    width: 200px;
-    display: inline-block;
-    margin-left: 24px;
-    font-size: xx-small;
-    background: radial-gradient(at top left, #ffa600, rgb(241, 238, 25));
-    font-weight: bold;
+    margin-top: 4px;
+    background: linear-gradient(to right, goldenrod, gold, goldenrod);
 }
-.attack {
+.card-style-3 .attack {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    font-size: x-small;
-}
-.energy {
-    padding: 15px;
-    margin-top: 24px;
-    display: flex;
-}
-.description {
-    padding: 24px 15px 10px;
-    text-align: left;
-}
-.power {
-    display: flex;
-    padding: 36px 0px 0px;
-    font-size: medium;
-    align-content: center;
-}
-.data {
-    border: 4px solid orange;
-    font-size: xx-small;
-    font-weight: bold;
-}
-#pokemon-card-1 .data {
-    margin: 70px 10px 0px;
-
-}
-#pokemon-card-2 .data {
-    margin: 80px 10px 0px;
-}
-#pokemon-card-3 .data {
-    margin: 5px 10px;
-}
-#pokemon-card-3 .bold {
-    margin: 70px 0px 0px 0px;
-    padding: 48px 24px 0px 0px;
-}
-#pokemon-card-4 .data {
-    margin: 5px 10px;
-}
-hr {
-    padding: 1px;
-    margin: 0px 15px;
-    background-color: black;
-}
-#pokemon-card-3 .description {
-    margin: 0px 0px 5px 15px;
-    display: inline-flexbox;
-    justify-content: center;
+    padding: 16px 0px;
+    margin: 8px 0px;
+    border-bottom: 2px solid black;
+    flex: 1;
 }
 .bold {
-    font-weight: bolder;
+    font-weight: bold;
+    font-size: 18px;
 }
-
+.description {
+    font-size: 12px;
+    margin: 0px 4px;
+}
+.power {
+    font-weight: bold;
+    font-size: 24px;
+}
+.data {
+    font-size: 11px;
+    font-weight: bold;
+    border: 2px solid goldenrod;
+    padding: 2px 2px;
+}
+#pokemon-card-1, #pokemon-card-2 {
+   background: linear-gradient(-25deg, lightgreen, forestgreen, #90ee90);
+}
+#pokemon-card-3 {
+    background: linear-gradient(-25deg, orange, orangered, orange);
+}
+ #pokemon-card-4 {
+    background: linear-gradient(-25deg, aqua, skyblue, aqua);
+}
