@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: New Amsterdam;
+}
+.single-column-layout {
+    width: 99%;
+    min-width: 500px;
+    padding: 10px;
+    margin: 0px, auto;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.single-column-layout h1 {
+    font-size: 80px;
+}
+#candle-hero {
+    height: 100vh;
+    background-image: url("../images/2nd-hero-pic.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative; 
+    margin-bottom: 100px;
+}
+#candle-hero h2 {
+    position: absolute;
+    left: 15%;
+    bottom: 70%;
+}
+#candle-hero h1 {
+    position: absolute;
+    left: 7%;
+    bottom: 50%;
+}
+#candle-hero h4 {
+    position: absolute;
+    left: 11%;
+    bottom: 50%;
+}
+#candle-hero a {
+    background-color: antiquewhite;
+    text-decoration: none;
+    color: black;
+    padding: 24px;
+    border-radius: 24px;
+    position: absolute;
+    left: 16%;
+    bottom: 40%;
+}
+#candle-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    padding: 24px;
+    border: 10px solid pink;
+}
+#candle-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    grid-auto-rows: 200px;
+}
+.banner {
+    height: 50vh;
+    margin: 24px 0px;
+    background-image: url("../images/carved-candle.webp");
+    background-size: cover;
+    background-attachment: fixed;
+}
