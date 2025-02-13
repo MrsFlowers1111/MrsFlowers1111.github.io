@@ -75,7 +75,7 @@ body {
 .parallax-banner {
     height: 50vh;
     background-image: url("../images/urban-1a4h3.jpg");
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     object-fit: fill;
