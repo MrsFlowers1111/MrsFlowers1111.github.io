@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=New+Amsterdam&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px 24px;
+    font-family: sans-serif;
+    background-color: #000000fe;
+}
+#hero {
+    background-image: url("../images/urban-hi-res-1ui7.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    font-family: "IM Fell French Canon SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#hero h1 {
+    font-size: 72px;
+    margin-bottom: 24px;
+    color: #e9e1e2;
+    position: absolute;
+    top: 15%;
+    transition: color 0.5s;
+}
+#hero p {
+    font-size: 32px;
+    color: #f30707f6;
+    position: absolute;
+    top: 38%;
+}
+#hero a {
+    font-size: 48px;
+    text-decoration: none;
+    background-color: #ff0909d2;
+    color: white;
+    padding: 24px 48px;
+    border-radius: 24px;
+    position: absolute;
+    top: 58%;
+    transition: background-color 0.5s, color 0.7s;
+}
+#hero a:hover {
+    background-color: rgba(28, 25, 25, 0.486);
+    color: rgb(255, 255, 255);
+}
+#hero h1:hover {
+    color: rgba(228, 15, 15, 0.842);
+    font-weight: bolder;
+    scale: 1.7;
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 42px;
+    margin-top: 42px;
+    justify-content: center;
+    background: #000000;
+}
+#gallery img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+    transition: color 0.5s;
+}
+.parallax-banner {
+    height: 50vh;
+    background-image: url("../images/urban-1a4h3.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: fill;
+}
+.h2-gallery {
+    text-align: center;
+    font-family: "IM Fell French Canon SC", serif;
+    font-weight: 600;
+    font-size: 100px;
+    font-style: normal;
+    color: red;
+    padding-top: 275px;
+}
+.image-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px 150px;
+    margin: 5px;
+    font-family: "New Amsterdam", serif;
+    text-align: center;
+    color: #df0707;
+}
+.image-cards h2 {
+    margin: 0px 0px 52px 0px;
+    text-shadow: 5px 5px 30px;
+    background: none;
+}
+.image-cards a {
+    text-decoration: none;
+    color: rgb(234, 226, 226);
+    font-style: normal;
+    background-color: #ff0202;
+    padding: 15px 42px ;
+    border-radius: 25px;
+    transition: background-color 0.5s, color 0.7s;
+}
+.image-cards a:hover {
+    background-color: rgb(253, 253, 253);
+    color: rgb(7, 7, 7);
+}
+.image-cards #card-1 {
+    border: 4px solid red;
+    padding: 60px 48px;
+    box-shadow: 4px 6px 32px #fff8f846;
+    margin-top: 48px;
+}
+.image-cards #card-2 {
+    border: 4px solid red;
+    padding: 60px 48px;
+    box-shadow: 4px 6px 32px #fff8f846;
+    margin-top: 48px;
+}
+.image-cards #card-3 {
+    border: 4px solid red;
+    padding: 60px 48px;
+    box-shadow: 4px 6px 32px #fff8f846;
+    margin-top: 48px;
+}
+.image-cards #card-1:hover {
+    transition: ease-in-out 0.5s;
+    box-shadow: 5px 7px 36px rgba(255, 0, 0, 0.497);
+}
+.image-cards #card-2:hover {
+    transition: ease-in-out 0.5;
+    box-shadow: 5px 7px 36px rgba(255, 0, 0, 0.497);
+}
+.image-cards #card-3:hover {
+    transition: ease-in-out 0.5s;
+    box-shadow: 5px 7px 36px rgba(255, 0, 0, 0.497);
+}
+#hero a:hover {
+    background-color: rgba(0, 0, 0, 0.462);
+    color: rgba(255, 255, 255, 0.682);
+}
+#gallery :hover {
+    color: rgba(228, 15, 15, 0.842);
+    scale: 1.5;
+    box-shadow: 4px 4px 20px rgba(238, 6, 6, 0.613);
+}
