@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=New+Amsterdam&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=New+Amsterdam&family=Nosifer&family=Quicksand:wght@300..700&family=Rubik+Wet+Paint&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.nav {
+    background: bisque;
+    padding: 24px;
+    box-shadow: 0px 4px 6px rgba(128, 128, 128, 0.425);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav a {
+    text-decoration: none;
+    padding: 24px;
+    color: rgba(165, 42, 42, 0.997);
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 6px 6px 12px rgba(165, 42, 42, 0.596);
+}
+#left-nav a {
+    font-size: 24px;
+    color: green;
+    font-weight: bolder;
+}
+.nav-2 { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(241, 241, 41);
+    padding: 32px;
+    box-shadow: 0px 4px 12px rgba(255, 68, 0, 0.599);
+}
+.nav-2 a {
+    text-decoration: none;
+    padding: 24px;
+    color: orangered;
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+#navbar-2 a{
+    font-size: 32px;
+    border-bottom: 2px solid orange;
+    border-top: 2px solid orange;
+}
+.btn {
+    background-color: white;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: bolder;
+    box-shadow: 4px 5px 15px orangered ;
+}
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    margin: 0px auto;
+}
+#header a {
+    text-decoration: none;
+    color: white;
+    font-family: "Nosifer", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.middle-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px auto;
+    background-color: black;
+    padding: 24px;
+}
+.middle-nav a {
+    color: orange;
+    text-decoration: none;
+    padding: 32px;
+}
+#left-nav-3 a {
+    font-family: "Nosifer", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+#right-nav-3 a {
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+#right-nav-3 .btn-2 {
+    background-color: orange;
+    color: black;
+    border-radius: 30px;
+    padding: 16px 24px;
+    font-weight: bolder;
+    font-size: 16px;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+.bottom #shopping {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, black, orange, black);
+    margin: 0px auto;
+    padding: 24px; 
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.188)
+}
+.bottom a {
+    text-decoration: none;
+    color: white;
+    font-family: "Nosifer", serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    margin: 0px 24px
+    
+}
