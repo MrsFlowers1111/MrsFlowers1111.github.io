@@ -453,24 +453,27 @@ body {
             ;
     }
     #header h1 {
-        font-size: 42px;
+        font-size: 48px;
     }
     #nav {
-        display: flex;
         flex-wrap: wrap;
     }
     #nav a {
-        flex: auto;
+        flex: 190px;
+        border-bottom: 2px solid #777;
     }
 }
     
 @media screen and (max-width: 800px) {
     #header h1 {
-        font-size: 32px;
+        font-size: 35px;
     }
     #nav {
-        display: flex;
         flex-wrap: wrap;
+    }
+    #nav a {
+        flex: 149px;
+        border-bottom: 2px solid #777;
     }
     #grid-layout {
         grid-template-columns: 1fr;
@@ -509,6 +512,6 @@ body {
     #main  {
         padding: 0px;
         margin: 0px;
-        background-color: none;
+        background-color: transparent;
     }
 }
