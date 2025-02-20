@@ -45,7 +45,7 @@ body {
     font-weight: bold;
     font-style: normal;
 }
-#navbar-2 a{
+#navbar-2 a {
     font-size: 32px;
     border-bottom: 2px solid orange;
     border-top: 2px solid orange;
@@ -114,7 +114,7 @@ body {
     background: linear-gradient(to right, black, orange, black);
     margin: 0px auto;
     padding: 24px; 
-    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.188)
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.188);
 }
 .bottom a {
     text-decoration: none;
@@ -123,6 +123,5 @@ body {
     font-weight: 200;
     font-style: normal;
     font-size: 15px;
-    margin: 0px 24px
-    
+    margin: 0px 24px;
 }
