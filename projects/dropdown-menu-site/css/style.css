@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.nav {
+    background-color: #f2bd1d;
+    display: flex;
+    align-items: center;
+}.nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #401201;
+    padding: 24px;
+}
