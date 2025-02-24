@@ -30,7 +30,8 @@ body {
     display: flex;
     align-items: center;
 
-}.navbar a {
+}
+.navbar a {
     display: inline-block;
     text-decoration: none;
     color: #401201;
@@ -59,7 +60,7 @@ body {
         opacity 0.6s,
         visibility 0.6s,
         transform 0.8s    
-    ;
+        ;
 }
 .dropdown-menu a:hover {
     color: #f2a81d;
@@ -100,7 +101,7 @@ body {
 #hero a {
     font-size: 24px;
     text-decoration: none;
-    display:inline-block;
+    display: inline-block;
     background-color: #401201;
     color: #f2bd1d;
     padding: 24px;
@@ -122,7 +123,6 @@ h1 {
     justify-content: center;
     gap: 72px;
 }
-
 .card {
     width: 350px;
     border: 0px solid #401201;
@@ -167,7 +167,6 @@ h1 {
     background-color: transparent;
     color: #f2bd1d;
 }
-
 .stuart {
     margin: 24px auto;
     display: flex;
@@ -185,7 +184,6 @@ h1 {
         box-shadow 0.5s,
         transform 0.5s
         ;
-    ;
 }
 .stuart:hover {
     transition: ease-in-out 0.5s;
@@ -227,7 +225,7 @@ h1 {
     transition: 
         background-color 0.5s, 
         color 0.7s, 
-    ;
+        ;
 }
 .stuart a:hover {
     background-color: transparent;
@@ -250,7 +248,6 @@ h1 {
         box-shadow 0.5s,
         transform 0.5s
         ;
-    ;
 }
 .cloe:hover {
     transition: ease-in-out 0.5s;
@@ -292,7 +289,7 @@ h1 {
     transition: 
         background-color 0.5s, 
         color 0.7s, 
-    ;
+        ;
 }
 .cloe a:hover {
     background-color: transparent;
@@ -315,7 +312,6 @@ h1 {
         box-shadow 0.5s,
         transform 0.5s
         ;
-    ;
 }
 .oscar:hover {
     transition: ease-in-out 0.5s;
@@ -357,13 +353,12 @@ h1 {
     transition: 
         background-color 0.5s, 
         color 0.7s, 
-    ;
+        ;
 }
 .oscar a:hover {
     background-color: transparent;
     color: #f2bd1d;
 }
-
 @media screen and ( max-width: 1024px) and (min-width: 742px) {
     #hero h2 {
         font-size: 38px;
@@ -389,7 +384,7 @@ h1 {
     }
     #hero a {
         font-size: 12px;
-        display:inline-block;
+        display: inline-block;
         border-radius: 24px;
     }
     .navbar a {
@@ -422,7 +417,6 @@ h1 {
         width: 500px;
         padding: 40px; 
     }
-
 }
 
 
