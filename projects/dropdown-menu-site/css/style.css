@@ -363,6 +363,7 @@ h1 {
     background-color: transparent;
     color: #f2bd1d;
 }
+
 @media screen and ( max-width: 1024px) and (min-width: 742px) {
     #hero h2 {
         font-size: 38px;
@@ -372,18 +373,18 @@ h1 {
     }
     #hero a {
         font-size: 20px;
+        margin: 0px;
     }
     #header {
         font-size: medium;
     }
-    
 }
 @media screen and (max-width: 741px) and (min-width: 325px) {
     #hero h2 {
         font-size: 24px;
     }
     #hero h4 {
-        font-size: 12px;
+        font-size: 15px;
 
     }
     #hero a {
@@ -396,9 +397,30 @@ h1 {
     }
     .navbar #logo {
         visibility: visible;
+        justify-content: center;
+        display: inline-block;
+        width: 100%;
     }
     #header {
         font-size: small;
+    }
+    .stuart {
+        margin: 24px auto;
+        justify-content: center;
+        width: 500px;
+        padding: 40px; 
+    }
+    .cloe {
+        margin: 24px auto;
+        justify-content: center;
+        width: 500px;
+        padding: 40px; 
+    }
+    .oscar {
+        margin: 24px auto;
+        justify-content: center;
+        width: 500px;
+        padding: 40px; 
     }
 
 }
