@@ -7,7 +7,7 @@ body {
     font-family: "quinn-display", serif;
     font-weight: bolder;
     font-style: normal;
-    width: 98%;
+    width: 80%;
     min-width: 500px;
     background-image: url(../images/abstract-curve-soft-brown.jpg);
 }
@@ -64,17 +64,18 @@ body {
 }
 #hero h2 {
     position: absolute;
-    top: 20%;
-    left: 10%;
+    top: 30%;
+    left: 2%;
     font-size: 62px;
-    color: #009438;
+    color: black;
 }
 #parallax {
     text-align: center;
     font-size: 32px;
-    padding-bottom: 0px;
-    padding-top: 24px;
+    padding-top: 0px;
+    margin: 0px auto;
     background-attachment: fixed;
+    text-shadow: 4px 4px 6px #009438;
 }
 .gallery {
     display: grid;
