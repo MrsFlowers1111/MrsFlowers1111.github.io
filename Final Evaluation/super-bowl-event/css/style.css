@@ -13,7 +13,6 @@ body {
 .single-column-layout {
     width: 90%;
     margin: 0px auto;
-    width: 500px;
     text-align: center;
 }
 #images-columns {
@@ -54,7 +53,7 @@ body {
 }
 .single-column-layout h1 {
     font-size: 48px;
-    
+
 }
 .single-column-layout h3 {
     font-size: 24px;
