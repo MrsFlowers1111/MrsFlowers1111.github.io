@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=IM+Fell+French+Canon+SC&family=New+Amsterdam&family=Nosifer&family=Quicksand:wght@300..700&family=Rubik+Wet+Paint&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "New Amsterdam", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: rgba(128, 128, 128, 0.493);
+}
+
+.single-column-layout {
+    width: 90%;
+    margin: 0px auto;
+    width: 500px;
+    text-align: center;
+}
+#images-columns {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    gap: 24px;
+}
+.left img {
+    object-fit: cover;
+    align-content: center;
+    max-height: 400px;
+    width: 100%;
+    margin: 24px auto;
+}
+.right img {
+    object-fit: cover;
+    align-content: center;
+    max-height: 400px;
+    width: 100%;
+    margin: 24px auto;
+}
+#image-columns p {
+    text-align: center;
+}
+#buttons a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    display: inline;
+    padding: 20px;
+    margin: 24px;
+    width: 100%;
+    text-align: center;
+    border-radius: 24px;
+}
+.single-column-layout h1 {
+    font-size: 48px;
+}
+.single-column-layout h3 {
+    font-size: 24px;
+}
+.single-column-layout h4 {
+    color: red;
+    font-size: 19px;
+    margin: 42px;
+}
+#button-column h2 {
+    font-size: 42px;
+}
+#button-column h3 {
+    font-size: 20px;
+}
