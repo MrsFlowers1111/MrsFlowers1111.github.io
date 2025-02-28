@@ -97,7 +97,6 @@ body {
     margin-bottom: 24px;
     margin-top: 0px;
     border: 10px solid #009444;
-
 }
 .gallery img {
     width: 100%;
@@ -142,7 +141,6 @@ body {
     display: flex;
     height: 75vh;
 }
-
 .text-column,
 .img-column {
     width: 50%;
@@ -150,19 +148,16 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .text-column {
     background-color: #c49a6c;
     color: #009438;
     font-size: 28px;
 }
-
 .column-content {
     margin: 48px;
     text-align: center;
     border-top: 3px ridge #3C2415;
-    border-bottom: 3px ridge #3C2415;
-    
+    border-bottom: 3px ridge #3C2415; 
 }
 .column-content ul {
     list-style-type: none;
@@ -184,7 +179,6 @@ body {
     margin: 10px;
     font-size: 24px;
 }
-
 #footer-navbar a {
     display: flex;
     flex-wrap: wrap;
@@ -192,7 +186,6 @@ body {
     text-decoration: none;
     color: #3C2415;
 }
-
 #footer-navbar {
     margin: 24px auto;
     display: flex;
@@ -325,7 +318,7 @@ body {
         margin: 0px auto;
     }
     .images .tt {
-        font-size: medium;
+        font-size: small;
     }
     .gallery {
         display: flex;
