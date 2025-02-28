@@ -7,8 +7,7 @@ body {
     font-family: "quinn-display", serif;
     font-weight: 500;
     font-style: normal;
-    width: 90%;
-    min-width: 500px;
+    width: 100%;
     background-image: url(../images/abstract-curve-soft-brown.jpg);
 }
 #header {
@@ -20,7 +19,7 @@ body {
 }
 #header h3 {
     color: #009438;
-    font-size: large;
+    font-size: 24px;
     font-weight: bolder;
 }
 #header a {
@@ -68,6 +67,8 @@ body {
     text-align: center;
     font-size: xx-large;
     padding: 24px;
+    margin-left: 80px;
+    width: 90%;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -80,6 +81,7 @@ body {
     left: 2%;
     font-size: 62px;
     color: black;
+    text-shadow: 6px 6px 4px white;
 }
 #parallax {
     text-align: center;
@@ -94,9 +96,10 @@ body {
     grid-auto-rows: 300px;
     gap: 24px;
     padding: 24px;
+    margin-left: 80px;
     margin-bottom: 24px;
-    margin-top: 0px;
     border: 10px solid #009444;
+    width: 90%;
 }
 .gallery img {
     width: 100%;
@@ -149,9 +152,14 @@ body {
     align-items: center;
 }
 .text-column {
-    background-color: #c49a6c;
     color: #009438;
     font-size: 28px;
+}
+.text-column p {
+    color: #3C2415;
+}
+.text-column ul {
+    color: #3C2415;
 }
 .column-content {
     margin: 48px;
@@ -176,7 +184,6 @@ body {
     background: linear-gradient(to bottom, #009445, #c49a6c);
     color: #3C2415;
     padding: 24px;
-    margin: 10px;
     font-size: 24px;
 }
 #footer-navbar a {
@@ -185,6 +192,7 @@ body {
     justify-content: space-between;
     text-decoration: none;
     color: #3C2415;
+    
 }
 #footer-navbar {
     margin: 24px auto;
@@ -197,6 +205,63 @@ body {
     scale: 1.03;
     border-bottom: 5px solid #3C2115;
 }
+#featured-dish {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 50%;
+    align-content: center;
+    width: 40%;
+    font-weight: bold;
+    border: 2px solid #3C2115;
+    border-radius: 50px;
+    background-color: #c49a6cb7;
+    margin-left: 30%;
+    margin-top: 24px;
+    
+}
+#featured-dish h1 {
+    text-align: center;
+    font-style: italic;
+}
+#featured-dish h2 {
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+    color:#009438;
+}
+#featured-dish h4 {
+    text-align: center;
+    font-size: 19px;
+    margin: 5px;
+}
+#featured-dish a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: antiquewhite;
+    display: inline-block;
+    border-radius: 32px;
+    width: 50%;
+    padding: 15px 24px;
+    margin: 15px auto;
+    color: #3C2115;
+    transition: color 1.0s, background-color 0.5s;
+}
+#featured-dish a:hover {
+    color: #009444;
+    background-color: #3c2115fe;
+    transform: scale(1.02);
+}
+#featured-dish img {
+    display: inline-block;
+    width: 75%;
+    border-radius: 24px;
+}
+#featured-dish span {
+    font-weight: lighter;
+    color: #3C2115;
+} 
 .menu-cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -206,6 +271,7 @@ body {
         "card7 card8 card9"
         ; 
     gap: 32px;
+    margin: 80px;
 }
 #card1 {
     grid-area: card1;
@@ -244,7 +310,7 @@ body {
     width: 100%;
     padding: 2px;
     margin: 0px auto;
-    border: 3px solid #009438;
+    border: 5px solid #3C2115;
     border-radius: 24px;
     box-shadow: 4px 4px 8px grey;
     transition: 
@@ -253,12 +319,19 @@ body {
         ;
 }
 .cards img:hover {
-    scale: 1.01;
+    scale: 1.06;
     box-shadow: 4px 4px 20px #009444;
 }
 #description ul {
     text-align: left;
     list-style: none;
+}
+#description b {
+    font-size: 23px;
+    color: #009444;
+}
+#description li {
+    font-size: 18px;
 }
 #description p {
     align-items: center;
@@ -275,6 +348,9 @@ body {
    
     #header h3 {
         font-size: 13px;
+    }
+    #hero {
+        margin-left: 40px;
     }
     #hero h2 {
         color: black;
@@ -324,15 +400,48 @@ body {
         display: flex;
         flex-wrap: wrap;
         margin: 24px;
+        margin-left: 40px;
     }
     .images {
-        flex: 1;
-        
+        flex: 31%;
     }
     .menu-cards {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         margin: 24px; 
+    }
+    #featured-dish {
+        margin-left: 5%;
+        margin-top: 24px;
+        width: 425px;
+        align-items: center;
+    }
+    #featured-dish h1 {
+        font-size: 24px;
+        margin-top: 24px;
+    }
+    #featured-dish h2 {
+        text-align: center;
+        margin: 10px auto;
+        font-size: 15px;
+    }
+    #featured-dish h4 {
+        text-align: center;
+        margin: 10px auto;
+        font-size: 13px;
+    }
+    #featured-dish a {
+        text-align: center;
+        text-decoration: none;
+        font-size: 10px;
+        width: 50%;
+        padding: 15px 24px;
+        margin: 15px 70px;
+    }
+    #featured-dish img {
+        width: 200px;
+        align-items: center;
+        margin: 15px 30px;
     }
 }
